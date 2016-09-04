@@ -40,7 +40,7 @@ class CustomValidator
 }
 
 /** Default error messages*/
-define("E_VAL_REQUIRED_VALUE","Please enter the value for %s");
+define("E_VAL_REQUIRED_VALUE","Vul alstublieft een waarde in voor %s");
 define("E_VAL_MAXLEN_EXCEEDED","Maximum length exceeded for %s.");
 define("E_VAL_MINLEN_CHECK_FAILED","Please enter input with length more than %d for %s");
 define("E_VAL_ALNUM_CHECK_FAILED","Please provide an alpha-numeric input for %s");
@@ -48,13 +48,13 @@ define("E_VAL_ALNUM_S_CHECK_FAILED","Please provide an alpha-numeric input for %
 define("E_VAL_NUM_CHECK_FAILED","Please provide numeric input for %s");
 define("E_VAL_ALPHA_CHECK_FAILED","Please provide alphabetic input for %s");
 define("E_VAL_ALPHA_S_CHECK_FAILED","Please provide alphabetic input for %s");
-define("E_VAL_EMAIL_CHECK_FAILED","Please provide a valida email address");
+define("E_VAL_EMAIL_CHECK_FAILED","Vul alstublieft een geldig e-mailadres in.");
 define("E_VAL_LESSTHAN_CHECK_FAILED","Enter a value less than %f for %s");
 define("E_VAL_GREATERTHAN_CHECK_FAILED","Enter a value greater than %f for %s");
 define("E_VAL_REGEXP_CHECK_FAILED","Please provide a valid input for %s");
-define("E_VAL_DONTSEL_CHECK_FAILED","Wrong option selected for %s");
-define("E_VAL_SELMIN_CHECK_FAILED","Please select minimum %d options for %s");
-define("E_VAL_SELONE_CHECK_FAILED","Please select an option for %s");
+define("E_VAL_DONTSEL_CHECK_FAILED","Verkeerde optie geselecteerd voor %s.");
+define("E_VAL_SELMIN_CHECK_FAILED","Selecteer alstublieft minimaal %d opties voor %s");
+define("E_VAL_SELONE_CHECK_FAILED","Selecteer alstublieft een optie voor %s");
 define("E_VAL_EQELMNT_CHECK_FAILED","Value of %s should be same as that of %s");
 define("E_VAL_NEELMNT_CHECK_FAILED","Value of %s should not be same as that of %s");
 
